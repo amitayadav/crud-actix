@@ -1,5 +1,5 @@
 [package]
-name = "crud-actix"
+name = "crud_actix"
 version = "0.1.0"
 authors = ["amita <amita.yadav@knoldus.in>"]
 
