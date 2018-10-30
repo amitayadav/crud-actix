@@ -1,7 +1,7 @@
 use actix_web::{Json, Path, Result};
 
 use crud_actix::network::connect;
-use crud_actix::crud_operations::{insert::*,remove::*,update::*,display::*};
+use crud_actix::crud_operation::{insert::*,remove::*,update::*,display::*};
 use crud_actix::models::Student;
 use crud_actix::set_up::{keyspace::*,
                          table::*};
